@@ -1,6 +1,6 @@
 <div align="center">
 
-# Omosanya Praise Oluwafisayo
+# Praise Omosanya Oluwafisayo
 
 I build AI products. Full stack, from the model to the database to deployment.
 
