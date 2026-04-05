@@ -8,7 +8,7 @@ I build AI products. Full stack, from the model to the database to deployment.
 &nbsp;
 [![X](https://img.shields.io/badge/@fysaio-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/fysaio)
 &nbsp;
-[![GitHub](https://img.shields.io/badge/github.com/thymosian-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/thymosian)
+[![GitHub](https://img.shields.io/badge/github.com/fysaio-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/fysaio)
 &nbsp;
 [![Email](https://img.shields.io/badge/email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:oluwafisayo8888@gmail.com)
 
