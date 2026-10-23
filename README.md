@@ -1,83 +1,64 @@
 <div align="center">
 
-# Praise Omosanya Oluwafisayo
+# Praise Oluwafisayo Omosanya
 
-I build AI products. Full stack, from the model to the database to deployment.
+**I build AI products. Full stack, from the model to the database to deployment.**
 
-![Location](https://img.shields.io/badge/Lagos_·_Ibadan,_Nigeria-C4572A?style=flat-square&logoColor=white)
-&nbsp;
-[![X](https://img.shields.io/badge/@fysaio-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/fysaio)
-&nbsp;
-[![GitHub](https://img.shields.io/badge/github.com/fysaio-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/fysaio)
-&nbsp;
-[![Email](https://img.shields.io/badge/email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:oluwafisayo8888@gmail.com)
+Lagos / Ibadan, Nigeria · Open to remote engineering roles
+
+[GitHub](https://github.com/fysaio) · [X](https://x.com/fysaio) · [Email](mailto:oluwafisayo8888@gmail.com)
 
 </div>
 
 ---
 
-## Work
+### What I build
 
-**lms2** &nbsp;`Production · Theraptly`
+I work across the frontend, backend, and AI systems that make a product useful. I particularly enjoy taking an idea beyond a prototype: data models, integrations, background jobs, failure handling, and the interface people actually use.
 
-Compliance and safety training platform. Upload a PDF, DOCX, or XLSX and it generates courses, slides, and quizzes through an AI pipeline. Handles multi-tenant org management, PHI scanning, cryptographically signed completions, and CARF audit evidence packs.
+Previously **Assistant Technical Lead at Theraptly** and **Technical Lead at Naija Fitness Coach**.
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=google&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white)
+### Selected work
 
-↗ [staging-lms.theraptly.com](https://staging-lms.theraptly.com)
+**[LMS2](https://github.com/fysaio/lms2) — AI-assisted learning platform**  
+*Theraptly · Next.js · TypeScript · PostgreSQL · Prisma · Google AI*
 
----
+Built the original learning platform and contributed to its development into a multi-organization training and compliance system. The product includes document-to-course generation, quizzes, course-management workflows, and organization-aware authentication. Later work lives in the larger [ai-cactus/lms](https://github.com/ai-cactus/lms) codebase, which was a team effort.
 
-**SabiOS** &nbsp;`Personal Project`
+**[Reviu](https://github.com/fysaio/pr-reviewer) — AI code review with repository context**  
+*Python · FastAPI · Celery · Redis · Gemini · Supabase/pgvector*
 
-AI assistant that actually remembers you. Tracks tasks, relationships, and priorities across conversations using a three-layer memory system: permanent profile, rolling working memory, and vectorized episodic memory via pgvector. Each message fires three AI calls in parallel: streaming the response, extracting facts in the background, and deciding whether to render a UI component. A validator checks names and claims against stored memory before the user sees anything.
+A GitHub App that receives pull-request webhooks, queues reviews, retrieves relevant repository files through semantic search, and posts findings back to GitHub. Includes a separate [management dashboard](https://github.com/fysaio/reviu-dashboard) and a benchmarking harness for precision, recall, and F1.
 
-![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini_2.5_Flash-8E75B2?style=flat-square&logo=google&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Paystack](https://img.shields.io/badge/Paystack-00C3F7?style=flat-square&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+**[SabiOS](https://github.com/fysaio/SabiOS) — Personal AI assistant**  
+*Next.js · Supabase · pgvector · Paystack · Vercel*
 
-↗ [sabi-os.vercel.app](https://sabi-os.vercel.app)
+An assistant designed around memory rather than isolated conversations. Built layered memory and fact extraction, semantic retrieval, AI response checks, background jobs, notifications, and subscription flows. [App](https://sabi-os.vercel.app)
 
----
+**[fikr.ai](https://github.com/fysaio/fikr.ai) — Reliable AI interaction layer**  
+*Next.js · TypeScript · Supabase · LLM APIs*
 
-**GoogleCalSync** &nbsp;`Personal Project`
+An AI gateway with provider fallback, deduplicated requests, execution budgets, structured validation, and safe fallbacks. It powers conversational onboarding, memory-grounded chat, and notification workflows.
 
-Bidirectional Google Calendar sync with an AI layer on top. Reads your events, adds context, reasons about what they actually mean for your day. Full client/server split, Drizzle ORM, database migrations, Vitest test suite.
+**[GoogleCalSync](https://github.com/thymosian/GoogleCalSync) — Calendar integration**  
+*TypeScript · Express · Google Calendar API · PostgreSQL · Drizzle*
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Drizzle](https://img.shields.io/badge/Drizzle-C5F74F?style=flat-square&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
+Google OAuth, calendar event creation and retrieval, Google Meet links, session management, and database-backed account integration.
 
-↗ [github.com/thymosian/GoogleCalSync](https://github.com/thymosian/GoogleCalSync)
+**[Plant Disease Detector](https://thymosian-plant-disease-detector-streamlit-app-4xnfqg.streamlit.app) — Computer vision**  
+*Python · PyTorch · Streamlit*
 
----
+Fine-tuned ResNet18 for 15 crop-disease classes, with a confidence threshold that can return an unknown result instead of forcing a diagnosis.
 
-**Plant Disease Detector** &nbsp;`ML Project`
+### Tools I use
 
-Upload a crop leaf image, get a diagnosis. Fine-tuned ResNet18 on 15 disease classes. Below 75% confidence it returns "Unknown" instead of guessing. Available as a Streamlit web app and a CLI for batch use.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-
-↗ [Live App](https://thymosian-plant-disease-detector-streamlit-app-4xnfqg.streamlit.app)
+**Languages:** TypeScript, JavaScript, Python, SQL  
+**Frontend:** React, Next.js, Tailwind CSS  
+**Backend:** Node.js, FastAPI, Celery, Redis  
+**Data:** PostgreSQL, Prisma, Drizzle, Supabase, pgvector  
+**AI:** Gemini, Vertex AI, embeddings, retrieval workflows  
+**Infrastructure:** Git, Docker, GitHub Actions, Vercel, Linux
 
 ---
 
-## Stack
-
-| | |
-|---|---|
-| **AI / ML** | Python · PyTorch · TensorFlow · Gemini · Vertex AI · OpenCV |
-| **Frontend** | Next.js · React · TypeScript · Tailwind · Framer Motion |
-| **Backend / DB** | PostgreSQL · Prisma · Drizzle · pgvector · Supabase |
-| **Infra** | PM2 · Nginx · Cloudflare · GitHub Actions · Vercel · Linux |
+**Contact:** [oluwafisayo8888@gmail.com](mailto:oluwafisayo8888@gmail.com)
